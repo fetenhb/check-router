@@ -116,7 +116,7 @@ const [ratingSearch, setRatingSearch]= useState(1)
   return (
     <BrowserRouter>
     <div>
-    <Route  path="/home"
+    <Route exact={true} path="/"
           render={() => (
             <>
        <SearchMovie 

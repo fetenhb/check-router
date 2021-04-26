@@ -79,7 +79,7 @@ const MovieDetails = (props) => {{
            {/* --------------------------- bouton home ------------------------- */}
 
                 <div style={{marginTop:'50px' , marginLeft:'200px' ,height:'50px', width:'200px'}}>
-                       <Link to='/home' style={{textDecoration:'none'}}>
+                       <Link to='/' style={{textDecoration:'none'}}>
                       <div className="wrapper" style={{display:'block'}}>
                           <a className="cta" href={movieFound.trailer}>
                             <span className="span-form">

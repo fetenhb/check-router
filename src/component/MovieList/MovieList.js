@@ -1,7 +1,5 @@
 import React from 'react'
 import MovieCard from '../MovieCard/MovieCard'
-import { BrowserRouter ,Link, Route} from "react-router-dom"
-import MovieDetails from '../MovieDetails/MovieDetails'
 
 const MovieList = (props) => {
 
